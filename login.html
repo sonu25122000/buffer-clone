@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #login{
+            display: flex;
+            height: 762px;
+        }
+        #login>div:nth-child(1){
+            width: 30%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        #login>div:nth-child(2){
+            width: 70%;
+            padding-left: 6%;
+            padding-top: 7%;
+            background: #f9de2a;
+        }
+        div>img{
+            margin-top: 8%;
+            margin-bottom: 20%;
+        }
+        label{
+            font-size: 17px;
+        }
+        input{
+            padding: 18px;
+            width: 337px;
+            margin-top: 10px;
+            margin-bottom: 16px;
+            border-radius: 6px;
+            font-size: 17px;
+            border: 1px solid black;
+        }
+        img+h1{
+            margin-bottom: 30px;
+        }
+        button{
+            padding: 20px;
+            width: 372px;
+            margin-top: 10px;
+            margin-bottom: 16px;
+            background: blue;
+            border: none;
+            border-radius: 6px;
+            color: aliceblue;
+        }
+        #flex{
+            display: flex;
+            justify-content: space-between;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(98, 95, 95);
+        }
+        div+p{
+            margin-top: 40px;
+            color: grey;
+            text-align: center;
+        }
+        #anc{
+            margin-top: 100px;
+            text-align: center;
+        }
+        #left{
+            width: 120px;
+            background: white;
+            padding:0px 5px;
+            text-align: center;
+            border-radius: 16px;
+            margin-bottom: 30px;
+
+        }
+        #head+p{
+            margin-top: 50px;
+            letter-spacing: 0.1px;
+            font-size: 17px;
+            color: rgb(70, 62, 62);
+            font-family: Roboto, sans-serif;
+            line-height: 1.2;
+        }
+        p+img{
+            width: 100%;
+            margin-top: -75px;
+        }
+    </style>
+</head>
+<body>
+    <div id="login">
+        <div>
+            <img src="https://static.buffer.com/login/public/img/buffer-logo.svg" alt="">
+            <h1>Login</h1>
+            <label for="">Email Address</label><br>
+            <input type="email"><br>
+            <label for="">Password</label><br>
+            <input type="password" name="" id=""><br>
+            <button>login</button>
+            <div id="flex">
+            <a href="">Create an account</a>
+            <a href="">Forgot your password?</a>
+            </div>
+            <p>We no longer support social sign on. Please click <a href="https://login.buffer.com/forgot-password">here</a> to set your password and access your account.</p>
+            <div id="anc">
+                <a href="https://buffer.com/legal#terms">Terms of Service • </a>
+                <a href="https://buffer.com/legal#privacy-policy">Privacy Policy • </a>
+                <a href="https://buffer.com/legal#security">Security</a>
+            </div>
+        </div>
+        <div >
+            <p id="left">New from Buffer</p>
+            <h1 id="head">Introducing: A free <br> micro-site by Buffer</h1>
+            <p>
+                A Start Page is a beautiful, flexible, mobile-friendly <br> landing page that you can build in minutes and <br> update in seconds
+            </p>
+            <img src="https://login.buffer.com/img/sp-login-image.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
