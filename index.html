@@ -370,16 +370,6 @@
         height: 30px;
         cursor: pointer;
     }
-    #tools{
-        position: fixed;
-        top: 10px;
-        background-color: yellowgreen;
-        font-size: 20px;
-        display: none;
-    }
-    .card{
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    }
 </style>
 <body>
     <div id="navbar">
@@ -388,7 +378,7 @@
             <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDgwMCI+DQo8cGF0aCBmaWxsPSIjM2E3NWM0IiBkPSJtMCwwaDEyMDB2ODAwaC0xMjAweiIvPg0KPHBhdGggZmlsbD0iI2Y5ZGQxNiIgZD0ibTAsNDAwaDEyMDB2NDAwaC0xMjAweiIvPg0KPC9zdmc+DQo=" alt="">
         </div>
         <div class="flex-nav">
-                <a href="" id="tools-navbar"><h2>Tools</h2></a>
+                <a href=""><h2>Tools</h2></a>
                 <a href=""><h2>Channels</h2></a>
                 <a href=""><h2>pricing</h2></a>
                 <a href=""> <h2>Blog</h2></a>
@@ -675,25 +665,5 @@
             </ul>
         </div>
     </div>
-    <div id="tools" class = "card">
-        <ul class="list-item">
-            <li>Publish</li>
-            <li>Publish</li>
-            <li>Publish</li>
-        </ul>
-    </div>
-
 </body>
 </html>
-<script>
-    const elem = document.getElementById("tools");
-    console.log(elem);
-    document.querySelector("#tools-navbar").addEventListener('mouseover', ()=>{
-        elem.style.display = 'block'
-    })
-    document.querySelector("#tools-navbar").addEventListener('mouseout', ()=>{
-        elem.style.display = 'none'
-    })
-
-
-</script>
