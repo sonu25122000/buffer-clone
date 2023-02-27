@@ -4,7 +4,7 @@ Buffer is a social media management platform for small to midsize businesses tha
 <h3>Live Demo Link https://jade-biscotti-64239c.netlify.app/ </h3>
 
  <h1>Home Page</h1>
-    <img src="https://i.postimg.cc/6qXrbr0s/Screenshot-2023-02-27-at-9-44-08-PM.png" alt="">
+    <img src="https://i.postimg.cc/fy9nzNnn/Screenshot-2023-02-27-at-9-55-06-PM.png" alt="">
     <img src="https://i.postimg.cc/ZnwWPpsx/Screenshot-2023-02-27-at-9-44-46-PM.png" alt="">
   <h1>Footer</h1>
     <img src="https://i.postimg.cc/y8ZNxMKP/Screenshot-2023-02-27-at-9-44-58-PM.png" alt="">
