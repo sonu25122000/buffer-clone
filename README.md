@@ -15,7 +15,7 @@ Buffer is a social media management platform for small to midsize businesses tha
     <p>If you want to run our project in your local machine</p>
     <p>Follow the given steps:</p>
     <ul>
-        <li>Clone our respository <a href="https://github.com/sonu25122000/legal-houses-5460.git">https://github.com/sonu25122000/legal-houses-5460.git</a></li>
+        <li>Clone our respository <a href="https://github.com/sonu25122000/nondescript-trip-7233.git">https://github.com/sonu25122000/nondescript-trip-7233.git</a></li>
         <li>Open our code in VS code </li>
  <li>Then do npm install</li>
         <li>Then Initialize the server by writing 'npm run start' on Terminal</li>
